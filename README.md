@@ -79,8 +79,7 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error example-color.tex
 本项目并非从零编写，主要来源及修改关系如下：
 
 1. LaTeX 类文件与参考文献样式基于既有 **GMCMthesis** 模板继续修改；`gmcmthesis.cls` 中保留了 `latexstudio.net`、`andy123t`、`OsbertWang/GMCMthesis` 等原作者、维护者及相关贡献说明，`gmcm.bst` 中保留其原始版权声明。
-2. 2026 年赛事名称、承办高校信息、封面与摘要页适配方式参考了 [Nopon-Knowledge/huawei-cup-modeling-latex](https://github.com/Nopon-Knowledge/huawei-cup-modeling-latex) 项目的公开说明与实现思路，并在此基础上结合本仓库的类文件、字体配置、代码环境和示例内容进行整理与调整。
-3. 赛事格式要求、固定版式和相关图形素材以中国研究生创新实践系列大赛管理平台发布的 2026 年官方文件为依据；本仓库中的 PDF、图像及版式素材仅用于复现竞赛论文模板和帮助参赛者排版。
+2. 赛事格式要求、固定版式和相关图形素材以中国研究生创新实践系列大赛管理平台发布的 2026 年官方文件为依据；本仓库中的 PDF、图像及版式素材仅用于复现竞赛论文模板和帮助参赛者排版。
 
 官方资料：
 
