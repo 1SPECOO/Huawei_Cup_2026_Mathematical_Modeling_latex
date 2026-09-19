@@ -9,7 +9,7 @@
 
 | 封面 | 摘要页 |
 |---|---|
-| ![封面](example_1.png) | ![摘要页](example_2.png) |
+| ![封面](example1.png) | ![摘要页](example2.png) |
 
 - [常规示例 PDF](example.pdf)
 - [彩色表格示例 PDF](example-color.pdf)
