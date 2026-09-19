@@ -1,0 +1,39 @@
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex*
+*.toc
+*.xdv
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# Local scratch files and historical backups
+/tmp/
+/figures/logo2021.pdf
+/figures/logo2022.pdf
+/figures/logo2023.pdf
+/figures/logo2024.pdf
+/figures/title2021.pdf
+/figures/title2022.pdf
+/figures/title2023.pdf
+/figures/title2024.pdf
+
+# Editor / operating-system files
+.DS_Store
+._*
+~$*
+*.swp
+*.bak
+__pycache__/
+*.pyc
+.venv/
