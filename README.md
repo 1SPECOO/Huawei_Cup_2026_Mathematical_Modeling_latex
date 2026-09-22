@@ -27,6 +27,13 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error example-color.tex
 
 项目已包含封面、标题所需的 PDF 素材，正常编译无需 Microsoft Word。请保留 `figures/` 目录，并从项目根目录运行编译命令。
 
+针对于使用Overleaf的用户需要将编译引擎从 pdfLaTeX 切换为 XeLaTeX，Consolas 字体缺失可将代码中`\setmonofont{Consolas}`替换为 Overleaf Linux 环境自带的等宽字体即可，推荐两种方案：
+
+- 方案 1（兼容代码里的 Courier New）：
+改为`\setmonofont{Courier New}`，和代码中 lstset 的配置保持一致；
+- 方案 2（更稳妥的 Linux 默认字体）：
+改为`\setmonofont{DejaVu Sans Mono}`，Overleaf 环境存在，显示效果也接近 Consolas。
+
 ### 字体
 
 封面和摘要页固定字形已经嵌入 PDF 素材，包含华文行楷标题。正文根据系统选择字体；Windows 下使用 SimSun（宋体）和 SimHei（黑体），macOS 下使用 Songti SC 和 Heiti SC。
